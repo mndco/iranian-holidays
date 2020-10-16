@@ -1,0 +1,52 @@
+{
+  "name": "mndco/iranian-holidays",
+  "type": "library",
+  "description": "Investigating the closure of a special day in Iran",
+  "keywords": [
+    "holiday",
+    "pholiday",
+    "laravel",
+    "jalali",
+    "persian-holiday",
+    "date",
+    "iranians-holiday",
+    "time",
+    "php",
+    "DateTime"
+  ],
+  "support": {
+    "issues": "https://github.com/mndco/iranian-holidays/issues",
+    "source": "https://github.com/mndco/iranian-holidays"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hossein Piri",
+      "email": "info@mndco.ir",
+      "homepage": "http://mndco.ir"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "morilog/jalali": "^3.1",
+    "geniusts/hijri-dates": "^1.1",
+    "gufy/pdftohtml-php": "~2",
+    "davincho/tabulapdf-php-wrapper": "^0.1.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MNDCo\\IranianHoliday\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MNDCo\\IranianHoliday\\Test\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit tests/IranianHolidayTest.php"
+  }
+}
