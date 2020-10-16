@@ -4,7 +4,7 @@ Checks whether a certain date in Iran is an official holiday or not
 
 
 ## installation 
-`` composer required mndco/iranian-holidays ``
+`` composer require mndco/iranian-holidays ``
 
 ## usage
 ```
@@ -16,7 +16,7 @@ use MNDCo\IranianHoliday\IranianHoliday;
 $holiday = new IranianHoliday();
 $date = "1399-07-26";
 if($holiday->checkIsHoliday($date))
-    var_dump($date . $holiday->getHolidayTitle($date));
+    var_dump($holiday->getHolidayTitle($date));
 
 ```
 
