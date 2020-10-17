@@ -30,7 +30,6 @@
     "php": ">=5.5",
     "morilog/jalali": "^3.1",
     "geniusts/hijri-dates": "^1.1",
-    "gufy/pdftohtml-php": "~2",
     "davincho/tabulapdf-php-wrapper": "^0.1.3"
   },
   "require-dev": {
