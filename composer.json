@@ -29,8 +29,7 @@
   "require": {
     "php": ">=5.5",
     "morilog/jalali": "^3.1",
-    "geniusts/hijri-dates": "^1.1",
-    "davincho/tabulapdf-php-wrapper": "^0.1.3"
+    "geniusts/hijri-dates": "^1.1"
   },
   "require-dev": {
     "phpunit/phpunit": "^6.2"
