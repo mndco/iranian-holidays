@@ -25,5 +25,20 @@ class IranianHolidayTest extends TestCase
         $iranian_holiday = new IranianHoliday();
         $this->assertEquals($iranian_holiday->getHolidayTitle('1399-07-17'), "اربعین حسینی");
     }
+    public function test5Mehr1400IsArbaeen()
+    {
+        $iranian_holiday = new IranianHoliday();
+        $this->assertEquals($iranian_holiday->getHolidayTitle('1400-07-05'), "اربعین حسینی");
+    }
+    public function test26Shahrivar1401IsArbaeen()
+    {
+        $iranian_holiday = new IranianHoliday();
+        $this->assertEquals($iranian_holiday->getHolidayTitle('1401-06-26'), "اربعین حسینی");
+    }
+    public function test15Shahrivar1402IsArbaeen()
+    {
+        $iranian_holiday = new IranianHoliday();
+        $this->assertEquals($iranian_holiday->getHolidayTitle('1402-06-15'), "اربعین حسینی");
+    }
 
 }

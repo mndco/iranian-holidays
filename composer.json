@@ -31,9 +31,6 @@
     "morilog/jalali": "^3.1",
     "geniusts/hijri-dates": "^1.1"
   },
-  "require-dev": {
-    "phpunit/phpunit": "^6.2"
-  },
   "autoload": {
     "psr-4": {
       "MNDCo\\IranianHoliday\\": "src/"
@@ -46,5 +43,9 @@
   },
   "scripts": {
     "test": "vendor/bin/phpunit tests/IranianHolidayTest.php"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.2",
+    "davincho/tabulapdf-php-wrapper": "^0.1.3"
   }
 }
