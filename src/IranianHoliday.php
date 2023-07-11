@@ -76,7 +76,7 @@ class IranianHoliday
 
 
 
-        if(class_exists(\Davincho\Tabula\Tabula)){
+        if(class_exists(\Davincho\Tabula\Tabula::class)){
             if (!@$holy_days[$jalalian_date_time->getYear()] && $jalalian_date_time->getYear() <= jdate(Carbon::now())->getYear() + 1 && $jalalian_date_time->getYear() >= 1369) {
 //             need java for update json file
 
